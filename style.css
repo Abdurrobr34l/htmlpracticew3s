@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(0, 255, 170);
+}
+
+
+.common{
+    font-size: 25px;
+    color: tomato;
+}
+
+
+/*this is a line to stop*/
+
+#holder {
+    width: 650px;
+    height: 150;
+
+}
+
+
+#top{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    padding: 10px 1px 10px 1px;
+    border-radius: 5px;
+}
+
+#container {
+    border: 1px solid black;
+    width: 750px;
+    height: 180px;
+    padding: 30px 10px 10px 10px;
+    border-radius: 10px;
+} 
+
+/*THIS IS A LINE BREAK WHICH IS USED TO JUST HELP TO SEE THE ANIMATION CODES.*/
+
+/*  the question part id given with top id
+
+and p element is given container*/
+
+
+
+
+@keyframes coloring {
+    0% {
+        background-color: rgb(0, 255, 170);
+    }
+
+    50% {
+        background-color: rgb(43, 83, 202);
+    } 
+    80% {
+        background-color: rgb(163, 40, 211);
+    } 
+
+    100% {
+        background-color: rgb(0, 255, 170);
+    }
+}
+
+#top {
+    animation: coloring;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#container {
+    animation: coloring;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.two {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:  rgb(0, 225, 105);   
+}
+
+/* -------------------------------------------------------    */
+
+#non{
+    border: 0px solid;
+}
+/*--------the above code is for 1st table---------*/
+
+.think{
+    border: 1px solid black;
+}
+
+.think tr, 
+.think th, 
+.think td{
+    border: 1px solid black;
+}
+/*--------the above code is for 2nd table---------*/
+
+.another{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.another tr, 
+.another th, 
+.another td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*--------the above code is for 3nd table------*/
+
+.background th,
+.background td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+ 
+.background th, 
+.background td{
+   background-color:  #fbff00;
+    
+}
+/*--------the above code is for 4rd table-----------*/
+
+.round{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color: rgb(0, 255, 170);
+}
+.round tr,
+.round th,
+.round td{
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.round tr,
+.round td{
+    background-color:  #fbff00;
+    padding-top: 10px;  
+    padding-bottom: 20px;  
+    padding-left: 30px;  
+    padding-right: 30px;
+}
+/*--------the above code is for 5th table-----------*/
+
+.container {
+    max-width: 900px;
+    height: 500px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.images{
+    width: 100%;
+}
